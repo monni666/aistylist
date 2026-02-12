@@ -1,108 +1,99 @@
+<!-- This is the markdown template for the final project of the Building AI course,
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
+
 # AI Stylist
+
 Final project for the Building AI course
 
 ## Summary
 
-AI Stylist is an AI‑powered personal stylist that helps people pick clothes based on weather, body type, and personal style preferences. The goal is to make choosing outfits easier, faster, and more confident.
-
-**Building AI course project**
-
----
+AI Stylist is an AI‑powered personal stylist that helps people pick clothes based on weather, body type, and personal style preferences. It aims to make outfit selection easier, faster, and more confident for people who struggle with choosing what to wear.
 
 ## Background
 
-Many people — including me — struggle with picking clothes for daily life, special events, and changing weather. This can waste time, create frustration, and reduce confidence. It is a common problem for people of all ages.
+Many people — including me — find it difficult to pick clothes for daily life, special events or changing weather. This leads to wasted time, stress, unnecessary purchases, and lower confidence.
 
-This project aims to address:
+This project aims to solve:
 
-- indecision when choosing daily outfits  
-- difficulty matching clothes into coherent outfits  
-- uncertainty about what suits one's body type or style  
-- choosing weather‑appropriate clothing  
+* indecision when choosing daily outfits  
+* difficulty matching clothes into coherent combinations  
+* uncertainty about what suits one’s body type  
+* choosing weather‑appropriate clothing  
 
-I find this topic personally meaningful because **I often have a hard time picking clothes**, and I would love an intelligent helper that suggests stylish and practical outfits.
-
----
+My personal motivation is simple: **I often have a hard time picking clothes** and would love to have intelligent, personalized guidance.
 
 ## How is it used?
 
-The AI Stylist could work as a:
+The solution would be used as a:
 
-- **mobile app** that scans your wardrobe  
-- **virtual closet** storing your clothes digitally  
-- **style recommendation assistant** providing outfit suggestions  
-- **weather‑aware tool** that adapts recommendations to temperature, rain, and season  
-- **body‑type advisor** that considers what fits the user best  
+* **mobile app** that allows users to photograph and upload their wardrobe  
+* **virtual closet** that organizes clothes into categories  
+* **smart stylist** that suggests outfits  
+* **weather‑aware tool** that adapts recommendations  
+* **body‑type advisor** that suggests flattering cuts and styles  
 
-**Example user flow:**
+Example usage:
 
-1. User opens the app in the morning  
-2. AI checks the weather forecast  
-3. AI analyzes the clothes available in the wardrobe  
-4. User selects the day’s activity  
-5. AI suggests 2–4 outfit combinations  
-
----
+1. User opens the app in the morning.  
+2. AI checks local weather.  
+3. AI analyzes available wardrobe items.  
+4. User selects the activity (school, work, gym, date, party).  
+5. The app generates 2–4 personalized outfit options.  
 
 ## Data sources and AI methods
 
-**Possible data sources:**
+Possible data sources:
 
-- user-uploaded wardrobe photos  
-- public fashion datasets (e.g., DeepFashion, Fashion‑MNIST)  
-- weather API (e.g., OpenWeatherMap)  
-- user preferences (color, fit, style, comfort)  
+* user-uploaded wardrobe photos  
+* publicly available fashion datasets (e.g., DeepFashion, Fashion‑MNIST)  
+* weather data via APIs (e.g., OpenWeatherMap)  
+* user preferences (colors, favorite items, comfort level)  
 
-**AI techniques:**
+AI methods:
 
-- **Image classification** to recognize clothing items  
-- **Recommender systems** to generate outfit suggestions  
-- **Similarity models** to match colors, textures, and styles  
-- **Rule-based filtering** for weather, activity, and personal constraints  
-- Optional: **computer vision** for analyzing body measurements or fit (only with consent)  
-
----
+* image classification (to identify clothing items)  
+* recommender systems (to create outfit combinations)  
+* similarity algorithms (to match colors and styles)  
+* rule-based filters (weather, season, context)  
+* optional computer vision for body shape estimation (with consent)  
 
 ## Challenges
 
 This project does **not** solve:
 
-- fully capturing someone’s unique taste  
-- cultural variation in fashion norms  
-- guaranteeing perfect outfit combinations  
-- privacy risks associated with uploading photos  
-- high‑accuracy body-shape analysis without advanced modelling  
+* fully understanding unique personal taste  
+* differences across cultures, fashion norms or trends  
+* ensuring perfect outfit choices every time  
+* privacy risks related to uploading personal wardrobe photos  
+* high‑accuracy body-shape analysis without advanced modeling  
 
-**Ethical considerations:**
+Ethical considerations:
 
-- images of clothing must be private and secure  
-- the model must avoid reinforcing beauty stereotypes  
-- fairness: model should avoid gender‑ or body‑based biases  
-
----
+* user images must remain private and secure  
+* avoid reinforcing beauty stereotypes or biased fashion norms  
+* ensure fair and inclusive style recommendations for all body types  
 
 ## What next?
 
-Future steps could include:
+Future development ideas:
 
-- 3D virtual try‑on  
-- sustainability suggestions (second-hand options, material impact)  
-- integration with online clothing stores  
-- AI‑generated outfit previews  
-- community features (share outfits, get feedback)  
+* adding a 3D virtual try-on  
+* sustainability guidance (second-hand options, eco-friendly materials)  
+* integration with online stores for additional suggestions  
+* AI‑generated outfit previews  
+* community features like sharing and rating outfits  
 
 To move forward, I would need:
 
-- larger fashion datasets  
-- collaboration with designers and AI engineers  
-- user testing to refine recommendations  
-- improved outfit‑matching algorithms  
-
----
+* access to diverse fashion datasets  
+* collaboration with designers or AI developers  
+* user testing to improve recommendations  
+* better outfit-matching algorithms  
 
 ## Acknowledgments
 
-- Inspired by fashion recommendation algorithms and virtual wardrobe apps  
-- DeepFashion and Fashion‑MNIST datasets (if used)  
-- Weather data providers like OpenWeatherMap  
-- Building AI course by Reaktor & University of Helsinki  
+* Inspired by fashion recommendation apps and virtual wardrobe tools  
+* DeepFashion and Fashion‑MNIST datasets (if used)  
+* Weather data providers such as OpenWeather  
+* Building AI course by Reaktor & University of Helsinki
