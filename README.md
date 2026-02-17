@@ -1,99 +1,68 @@
-<!-- This is the markdown template for the final project of the Building AI course,
+
+<!-- This is the markdown template for the final project of the Building AI course, 
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# AI Stylist
+# StylistAi
 
 Final project for the Building AI course
 
 ## Summary
 
-AI Stylist is an AI‑powered personal stylist that helps people pick clothes based on weather, body type, and personal style preferences. It aims to make outfit selection easier, faster, and more confident for people who struggle with choosing what to wear.
+Ai which helps people choose clothes, it could use weather information, color theory and body type as criteria to choose outfits.
+
 
 ## Background
 
-Many people — including me — find it difficult to pick clothes for daily life, special events or changing weather. This leads to wasted time, stress, unnecessary purchases, and lower confidence.
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
-This project aims to solve:
+* Choosing what to wear is hard
+* Newest trends might not work for everyone
 
-* indecision when choosing daily outfits  
-* difficulty matching clothes into coherent combinations  
-* uncertainty about what suits one’s body type  
-* choosing weather‑appropriate clothing  
-
-My personal motivation is simple: **I often have a hard time picking clothes** and would love to have intelligent, personalized guidance.
 
 ## How is it used?
 
-The solution would be used as a:
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account? It could be used at home when you have to choose what to wear for the day. Also it could help people shopping new clothes in store or in online. 
 
-* **mobile app** that allows users to photograph and upload their wardrobe  
-* **virtual closet** that organizes clothes into categories  
-* **smart stylist** that suggests outfits  
-* **weather‑aware tool** that adapts recommendations  
-* **body‑type advisor** that suggests flattering cuts and styles  
 
-Example usage:
 
-1. User opens the app in the morning.  
-2. AI checks local weather.  
-3. AI analyzes available wardrobe items.  
-4. User selects the activity (school, work, gym, date, party).  
-5. The app generates 2–4 personalized outfit options.  
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
 
 ## Data sources and AI methods
+I could get data about color matching from specialists in that area. 
 
-Possible data sources:
 
-* user-uploaded wardrobe photos  
-* publicly available fashion datasets (e.g., DeepFashion, Fashion‑MNIST)  
-* weather data via APIs (e.g., OpenWeatherMap)  
-* user preferences (colors, favorite items, comfort level)  
-
-AI methods:
-
-* image classification (to identify clothing items)  
-* recommender systems (to create outfit combinations)  
-* similarity algorithms (to match colors and styles)  
-* rule-based filters (weather, season, context)  
-* optional computer vision for body shape estimation (with consent)  
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 ## Challenges
 
-This project does **not** solve:
-
-* fully understanding unique personal taste  
-* differences across cultures, fashion norms or trends  
-* ensuring perfect outfit choices every time  
-* privacy risks related to uploading personal wardrobe photos  
-* high‑accuracy body-shape analysis without advanced modeling  
-
-Ethical considerations:
-
-* user images must remain private and secure  
-* avoid reinforcing beauty stereotypes or biased fashion norms  
-* ensure fair and inclusive style recommendations for all body types  
+Clothes can be expensive. It is not ekological by deafault, but it could encourage to buy second hand clothing.
 
 ## What next?
 
-Future development ideas:
+I would need contract with some weather company to use the weather information. Also help with coding. 
 
-* adding a 3D virtual try-on  
-* sustainability guidance (second-hand options, eco-friendly materials)  
-* integration with online stores for additional suggestions  
-* AI‑generated outfit previews  
-* community features like sharing and rating outfits  
-
-To move forward, I would need:
-
-* access to diverse fashion datasets  
-* collaboration with designers or AI developers  
-* user testing to improve recommendations  
-* better outfit-matching algorithms  
 
 ## Acknowledgments
 
-* Inspired by fashion recommendation apps and virtual wardrobe tools  
-* DeepFashion and Fashion‑MNIST datasets (if used)  
-* Weather data providers such as OpenWeather  
-* Building AI course by Reaktor & University of Helsinki
+* Tiktok, I have seen many people doing the color test to determine which colours suit them best. 
